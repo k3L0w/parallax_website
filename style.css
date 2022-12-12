@@ -1,4 +1,17 @@
-@charset "UTF-8";
+@font-face {
+    font-family: '1942-report';
+    src: url(/fonts/1942_report/1942.ttf);
+}
+
+@font-face {
+    font-family: 'myriadPro';
+    src: url(/fonts/apple/myriad-pro-regular.OTF);
+}
+
+:root {
+    --fontHeader: '1942-report';
+    --fontText: 'myriadPro';
+}
 
 * {
     margin: 0px;
@@ -6,5 +19,105 @@
 }
 
 body {
-    background-image: url(/img/bg-sao_paulo-brazil.jpg);
+    background-image: url(/img/pexels-bg-saopaulo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(61, 20, 20, 0.61);
+}
+
+nav {
+    display: inline-block;
+    margin: 60px;
+    font-family: var(--fontHeader);
+    font-weight: bold;
+}
+
+
+h1 {
+    height: 80vh;
+    text-align: center;
+    margin-top: 1000px;
+    font-size: 23em;
+    font-family: var(--fontHeader);
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 25em;
+    font-family: var(--fontHeader);
+}
+
+.home {
+    color: white;
+    font-size: 4em;
+}
+
+.contact {
+    color: white;
+    font-size: 4em;
+}
+
+.saiba_mais {
+    color: white;
+    font-size: 4em;
+}
+
+
+
+header>h1 {
+    font-family: var(--fontHeader);
+    text-align: center;
+    margin-top: 500px;
+    font-size: 7em;
+    color: black;
+    width: 600px;
+    height: 500px;
+}
+
+p {
+    text-indent: 3em;
+    text-align: justify;
+    font-family: var(--fontText);
+}
+
+.regiao-administrativa-de-registro {
+    background-image: url(/img/bg-prefeituraRegistro.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-shadow: 7px 5px 2px black;
+    color: white;
+    height: 500px;
+    font-size: 10em;
+    text-align: center;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
+}
+
+.text-registro {
+    background-color: white;
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+.text-registro>a {
+    font-weight: bold;
+}
+
+footer>p {
+    background-color: rgba(61, 20, 20, 0.61);
+    font-family: var(--fontText);
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    padding: 15px;
 }
