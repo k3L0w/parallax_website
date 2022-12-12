@@ -18,6 +18,10 @@
     padding: 0px;
 }
 
+a {
+    font-weight: bold;
+}
+
 body {
     background-image: url(/img/pexels-bg-saopaulo.jpg);
     background-repeat: no-repeat;
@@ -54,8 +58,20 @@ h2 {
 }
 
 .home {
+    background-color: black;
     color: white;
     font-size: 4em;
+    border: 1px solid white;
+    padding: 25px;
+}
+
+.home:hover {
+    background-color: white;
+    color: black;
+    text-shadow: 2px 2px 1 black;
+    border: 5px solid black;
+    border-radius: 25px;
+    transition: 1s;
 }
 
 .contact {
@@ -63,11 +79,30 @@ h2 {
     font-size: 4em;
 }
 
+.contact:hover {
+    background-color: white;
+    color: black;
+    text-shadow: 2px 2px 1 black;
+    border: 5px solid black;
+    border-radius: 25px;
+    transition: 1s;
+    padding: 25px;
+}
+
 .saiba_mais {
     color: white;
     font-size: 4em;
 }
 
+.saiba_mais:hover {
+    background-color: white;
+    color: black;
+    text-shadow: 2px 2px 1 black;
+    border: 5px solid black;
+    border-radius: 25px;
+    transition: 1s;
+    padding: 25px;
+}
 
 
 header>h1 {
@@ -94,7 +129,7 @@ p {
     background-color: black;
     text-shadow: 7px 5px 2px black;
     color: white;
-    height: 500px;
+    height: 1200px;
     font-size: 10em;
     text-align: center;
     padding-top: 250px;
@@ -102,16 +137,37 @@ p {
 }
 
 .text-registro {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.801);
     color: black;
     text-align: justify;
     font-size: 4em;
     padding: 150px;
 }
 
-.text-registro>a {
-    font-weight: bold;
+.regiao-metropolitana-da-baixada-santista {
+    background-image: url(/img/bg-baixada-santista.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-shadow: 7px 5px 2px black;
+    color: white;
+    height: 1200px;
+    font-size: 10em;
+    text-align: center;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
 }
+
+.text-baixadaSantista {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+
 
 footer>p {
     background-color: rgba(61, 20, 20, 0.61);
