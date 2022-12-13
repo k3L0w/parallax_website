@@ -378,7 +378,7 @@ p {
 
 
 .Região-Administrativa-de-Araçatuba {
-    background-image: url(/img/bg-Bauru.jpg);
+    background-image: url(/img/bg-RA-Aracatuba.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -403,7 +403,7 @@ p {
 
 
 .Regiao-Administrativa-de-Presidente-Prudente {
-    background-image: url(/img/bg-Bauru.jpg);
+    background-image: url(/img/bg-RA_pprudente_07_igc.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -428,7 +428,7 @@ p {
 
 
 .Regiao-Administrativa-de-Marília {
-    background-image: url(/img/bg-Bauru.jpg);
+    background-image: url(/img/bg-RA-Marília.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -451,8 +451,8 @@ p {
     padding: 150px;
 }
 
-.Regiao-Administrativa-Centralde-Bauru {
-    background-image: url(/img/bg-Bauru.jpg);
+.Regiao-Regiao-Administrativa-Central {
+    background-image: url(/img/bg-RA-Araraquara.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -476,7 +476,7 @@ p {
 }
 
 .Regiao-Administrativa-de-Barretos {
-    background-image: url(/img/bg-Bauru.jpg);
+    background-image: url(/img/bg-barretos.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -500,7 +500,7 @@ p {
 }
 
 .Regiao-Administrativa-de-Franca {
-    background-image: url(/img/bg-Bauru.jpg);
+    background-image: url(/img/bg-RA-Panorama_Franca_SP.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -524,7 +524,7 @@ p {
 }
 
 .Regiao-Administrativa-de-Itapeva {
-    background-image: url(/img/bg-Bauru.jpg);
+    background-image: url(/img/bg-RA-centro_de_Itapeva.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -547,8 +547,8 @@ p {
     padding: 150px;
 }
 
-.Regiao-Metropolitana-de-São-Paulo-de-Bauru {
-    background-image: url(/img/bg-Bauru.jpg);
+.regiao-metropolitana-de-são-paulo {
+    background-image: url(/img/bg-RM-São_Paulo_city_\(Bela_Vista\).jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
