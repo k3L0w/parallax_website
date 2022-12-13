@@ -20,14 +20,27 @@
 
 a {
     font-weight: bold;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 6px;
+    border-radius: 17px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    border: 3px outset white;
+    box-shadow: 3px 3px 1px black;
 }
 
 body {
-    background-image: url(/img/pexels-bg-saopaulo.jpg);
+    background-image: url(/img/bg-pexels-caroline-cagnin-2065848.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: black;
     background-size: cover;
+    background-position: left bottom;
+    height: 800px;
 
 }
 
@@ -44,18 +57,14 @@ nav {
 
 
 h1 {
-    height: 80vh;
+    color: white;
+    margin-top: 20%;
+    margin-bottom: 50%;
     text-align: center;
-    margin-top: 1000px;
-    font-size: 23em;
+    font-size: 13em;
     font-family: var(--fontHeader);
-}
-
-h2 {
-    color: black;
-    text-align: center;
-    font-size: 25em;
-    font-family: var(--fontHeader);
+    text-shadow: 1px 1px 7px black;
+    font-weight: bold;
 }
 
 .home {
@@ -73,11 +82,13 @@ h2 {
     border: 5px solid black;
     border-radius: 25px;
     transition: 1s;
+    cursor: pointer;
 }
 
 .contact {
     color: white;
     font-size: 4em;
+
 }
 
 .contact:hover {
@@ -88,6 +99,7 @@ h2 {
     border-radius: 25px;
     transition: 1s;
     padding: 25px;
+    cursor: pointer;
 }
 
 .saiba_mais {
@@ -103,6 +115,7 @@ h2 {
     border-radius: 25px;
     transition: 1s;
     padding: 25px;
+    cursor: pointer;
 }
 
 
@@ -128,11 +141,12 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    text-shadow: 7px 5px 2px black;
-    color: white;
     height: 1200px;
+    font-weight: bold;
     font-size: 10em;
     text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
     padding-top: 250px;
     font-family: var(--fontHeader);
 }
@@ -147,15 +161,16 @@ p {
 
 .regiao-metropolitana-da-baixada-santista {
     background-image: url(/img/bg-baixada-santista.jpg);
-    background-position: left center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    text-shadow: 7px 5px 2px black;
-    color: white;
     height: 1200px;
+    font-weight: bold;
     font-size: 10em;
     text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
     padding-top: 250px;
     font-family: var(--fontHeader);
 }
@@ -170,15 +185,16 @@ p {
 
 .regiao-Administrativa-de-Sao-Jose-dos-Campos {
     background-image: url(/img/bg-sao-jose-dos-campos.jpg);
-    background-position: left center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    text-shadow: 7px 5px 2px black;
-    color: white;
     height: 1200px;
+    font-weight: bold;
     font-size: 10em;
     text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
     padding-top: 250px;
     font-family: var(--fontHeader);
 }
@@ -193,15 +209,16 @@ p {
 
 .Regiao-Metropolitana-do-Vale-do-Paraiba-e-Litoral-Norte {
     background-image: url(/img/bg-serra-da-mantiqueira.jpg);
-    background-position: left center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    text-shadow: 7px 5px 2px black;
-    color: white;
     height: 1200px;
+    font-weight: bold;
     font-size: 10em;
     text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
     padding-top: 250px;
     font-family: var(--fontHeader);
 }
@@ -216,20 +233,337 @@ p {
 
 .Regiao-Administrativa-de-Sorocaba {
     background-image: url(/img/bg-RA-Sorocaba.jpeg);
-    background-position: left center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    text-shadow: 7px 5px 2px black;
-    color: white;
     height: 1200px;
+    font-weight: bold;
     font-size: 10em;
     text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
     padding-top: 250px;
     font-family: var(--fontHeader);
 }
 
 .text-Regiao-Administrativa-de-Sorocaba {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+.Regiao-Administrativa-e-Metropolitana-de-Campinas {
+    background-image: url(/img/bg-campinas-sp.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 1200px;
+    font-weight: bold;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
+}
+
+.text-Regiao-Administrativa-e-Metropolitana-de-Campinas {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+.Regiao-Administrativa-de-Ribeirão-Preto {
+    background-image: url(/img/bg-panoramico-RibeiraoPreto.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 1200px;
+    font-weight: bold;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
+}
+
+.text-Administrativa-de-Ribeirão-Preto {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+.Regiao-Metropolitana-de-Ribeirão-Preto {
+    background-image: url(/img/bg-ribeitaopreto.jpg.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 1200px;
+    font-weight: bold;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
+}
+
+
+.text-Regiao-Metropolitana-de-Ribeirão-Preto {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+.Regiao-Administrativa-de-Bauru {
+    background-image: url(/img/bg-Bauru.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 1200px;
+    font-weight: bold;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
+}
+
+.text-Regiao-Administrativa-de-Bauru {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+.Regiao-Administrativa-de-Sao-Jose-do-Rio-Preto {
+    background-image: url(/img/bg_RA-São_José_do_Rio_Preto.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 1200px;
+    font-weight: bold;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
+}
+
+.text-Regiao--Administrativa-de-Sao-Jose-do-Rio-Preto {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+
+.Região-Administrativa-de-Araçatuba {
+    background-image: url(/img/bg-Bauru.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 1200px;
+    font-weight: bold;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
+}
+
+.text-Regiao-Administrativa-de-Araçatuba {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+
+.Regiao-Administrativa-de-Presidente-Prudente {
+    background-image: url(/img/bg-Bauru.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 1200px;
+    font-weight: bold;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
+}
+
+.text-Regiao-Administrativa-de-Presidente-Prudente {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+
+.Regiao-Administrativa-de-Marília {
+    background-image: url(/img/bg-Bauru.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 1200px;
+    font-weight: bold;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
+}
+
+.text-Regiao-Administrativa-de-Marília {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+.Regiao-Administrativa-Centralde-Bauru {
+    background-image: url(/img/bg-Bauru.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 1200px;
+    font-weight: bold;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
+}
+
+.text-Regiao-Administrativa-Central {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+.Regiao-Administrativa-de-Barretos {
+    background-image: url(/img/bg-Bauru.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 1200px;
+    font-weight: bold;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
+}
+
+.text-Regiao-Administrativa-de-Barretos {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+.Regiao-Administrativa-de-Franca {
+    background-image: url(/img/bg-Bauru.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 1200px;
+    font-weight: bold;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
+}
+
+.text-Regiao-Administrativa-de-Franca {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+.Regiao-Administrativa-de-Itapeva {
+    background-image: url(/img/bg-Bauru.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 1200px;
+    font-weight: bold;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
+}
+
+.text-Regiao-Administrativa-de-Itapeva {
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    text-align: justify;
+    font-size: 4em;
+    padding: 150px;
+}
+
+.Regiao-Metropolitana-de-São-Paulo-de-Bauru {
+    background-image: url(/img/bg-Bauru.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 1200px;
+    font-weight: bold;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 2px black;
+    padding-top: 250px;
+    font-family: var(--fontHeader);
+}
+
+.text-Regiao-Metropolitana-de-São-Paulo {
     background-color: rgba(255, 255, 255, 0.801);
     color: black;
     text-align: justify;
